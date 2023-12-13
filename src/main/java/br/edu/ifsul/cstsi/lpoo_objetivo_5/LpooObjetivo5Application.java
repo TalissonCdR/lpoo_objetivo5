@@ -8,6 +8,7 @@ public class LpooObjetivo5Application {
 
     public static void main(String[] args) {
         SpringApplication.run(LpooObjetivo5Application.class, args);
-    }
+        HomeController.main(null);
 
+    }
 }
