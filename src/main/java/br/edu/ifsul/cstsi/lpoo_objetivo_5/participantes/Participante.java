@@ -1,7 +1,7 @@
 package br.edu.ifsul.cstsi.lpoo_objetivo_5.participantes;
 
 
-import br.edu.ifsul.cstsi.lpoo_objetivo_5.lances.Lance;
+import br.edu.ifsul.cstsi.lpoo_objetivo_5.model.Lance;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -33,7 +33,5 @@ public class Participante {
     @Column(name = "telefone_participantes")
     private String telefone;
 
-    @OneToMany(mappedBy = "participante")
-    private List<Lance> lances;
 
 }

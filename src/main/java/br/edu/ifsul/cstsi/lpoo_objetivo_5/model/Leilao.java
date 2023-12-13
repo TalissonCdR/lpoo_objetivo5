@@ -1,4 +1,4 @@
-package br.edu.ifsul.cstsi.lpoo_objetivo_5.Leilao;
+package br.edu.ifsul.cstsi.lpoo_objetivo_5.model;
 
 import br.edu.ifsul.cstsi.lpoo_objetivo_5.model.Item_Leilao;
 import jakarta.persistence.*;
@@ -23,7 +23,7 @@ public class Leilao {
     private LocalTime hor_final;
 
 
-   @OneToMany(mappedBy = "leilao")
+   @OneToMany
     private List<Item_Leilao> item_leilao;
 
 }

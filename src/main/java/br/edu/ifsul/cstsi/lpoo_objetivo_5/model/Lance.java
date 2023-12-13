@@ -1,4 +1,4 @@
-package br.edu.ifsul.cstsi.lpoo_objetivo_5.lances;
+package br.edu.ifsul.cstsi.lpoo_objetivo_5.model;
 
 import br.edu.ifsul.cstsi.lpoo_objetivo_5.model.Item_Leilao;
 import br.edu.ifsul.cstsi.lpoo_objetivo_5.participantes.Participante;

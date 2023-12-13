@@ -21,7 +21,10 @@ public class ParticipanteService {
 
     public Participante getParticipanteById(Long id) {
         Optional<Participante> optional = rep.findById(id);
-        return optional.orElse(null);
+        if(optional.isPresent()) {
+            return optional.get();
+        }
+        return null;
     }
 
 

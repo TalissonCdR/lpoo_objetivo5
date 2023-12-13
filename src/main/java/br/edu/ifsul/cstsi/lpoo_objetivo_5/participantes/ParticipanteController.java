@@ -25,12 +25,11 @@ public class ParticipanteController {
         
                             1. Inserir novo participante
                             2. Atualizar um participante
-                            3. Excluir um participante (tornar inativo)
-                            4. Ativar ou Desativar um participante
-                            5. Listar todos os participantes
-                            6. Buscar participante pelo código
-                            7. Buscar participantes pelo nome
-                            8. Buscar participante pelo Login
+                            3. Excluir um participante
+                            4. Listar todos os participantes
+                            5. Buscar participante pelo código
+                            6. Buscar participantes pelo nome
+                            7. Buscar participante pelo Login
                             Opção (Zero p/sair):\s""");
                 opcao = input.nextInt();
                 input.nextLine();
